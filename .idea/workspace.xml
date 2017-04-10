@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165203fc-9438-4551-a584-f8dbcabcd0bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FuturaPTBold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FuturaPTDemi.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FuturaPTMedium.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Layer 9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Rectangle 3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Rectangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Rounded Rectangle 1 copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Shape 5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home-page/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home-page/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home-page/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 7.png" afterPath="$PROJECT_DIR$/img/polmed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 8.png" afterPath="$PROJECT_DIR$/img/axa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 9.png" afterPath="$PROJECT_DIR$/img/luxmed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Rectangle.png" afterPath="$PROJECT_DIR$/img/homepage-background.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home-page/index.html" afterPath="$PROJECT_DIR$/home-page/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home-page/styles.css" afterPath="$PROJECT_DIR$/home-page/styles.css" />
     </list>
     <ignored path="polisy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-page/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9471229">
-              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.615385">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -68,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home-page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.4230171">
+              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,8 +67,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home-page/index.html" />
         <option value="$PROJECT_DIR$/home-page/styles.css" />
+        <option value="$PROJECT_DIR$/home-page/index.html" />
       </list>
     </option>
   </component>
@@ -301,18 +282,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/img/Rectangle 3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/homepage-background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-page/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9471229">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state vertical-scroll-proportion="-13.615385">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4230171">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
           <folding />
         </state>
       </provider>

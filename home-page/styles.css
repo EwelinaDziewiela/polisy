@@ -14,10 +14,10 @@
 
 body {
     margin: 0;
+    font-family: "FuturaPTMedium" sans-serif;
 }
 
 .head-container {
-    background-color: pink;
     height: 130px;
 }
 
@@ -31,8 +31,6 @@ body {
     padding: 37px 35px 0 35px;
 }
 
-
-
 .nav li a {
     color: #343839;
 }
@@ -44,7 +42,7 @@ body {
 .dropdown-menu li a {
     color: #343839;
     font-weight: 600;
-    padding: 20px 0 15px 25px;
+    padding: 10px 0 15px 30px;
 }
 
 
@@ -65,3 +63,95 @@ body {
     border: none;
     box-shadow: none;
 }
+
+.dropdown-menu li a {
+    color: #707477;
+
+}
+
+.side-menu__container {
+    text-align: right;
+}
+
+.side-menu__link {
+    display: inline-block;
+    margin: 53px 10px 0 0;
+}
+
+.side-menu__link a {
+    color: #0E69A0;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+}
+
+.side-menu__link a:hover {
+    text-decoration: none;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    border-radius: 5px;
+    background-color:  #0E69A0;
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.section-background {
+    background-image: url("../img/homepage-background.png");
+    height: 600px;
+    text-align: center;
+    display: inline-block;
+}
+
+.section-title__container {
+    margin-top: 120px;
+
+}
+
+.section-title {
+    font-weight: 600;
+    color: #0E69A0;
+    font-family: "FuturaPTBold" sans-serif;
+
+}
+
+.section-lead {
+    margin-top: 30px;
+    line-height: 25px;
+    color: #707477;
+}
+
+.buy-insurance__container {
+    background: white;
+    width: 84em;
+    margin-top: 90px;
+    height: 395px;
+    -webkit-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75);
+    display: inline-block;
+}
+
+.buy-insurance__title {
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+.insurance-options__container {
+    text-align: center;
+    display: inline-block;
+}
+
+.insurance-option {
+    border: 1px solid #ddd;
+    padding: 20px;
+    vertical-align: middle;
+    margin: 20px 0 0 20px;
+    height: 80px;
+}
+
