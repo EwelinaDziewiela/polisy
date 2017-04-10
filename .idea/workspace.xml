@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165203fc-9438-4551-a584-f8dbcabcd0bb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 7.png" afterPath="$PROJECT_DIR$/img/polmed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 8.png" afterPath="$PROJECT_DIR$/img/axa.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Layer 9.png" afterPath="$PROJECT_DIR$/img/luxmed.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Rectangle.png" afterPath="$PROJECT_DIR$/img/homepage-background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home-page/index.html" afterPath="$PROJECT_DIR$/home-page/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home-page/styles.css" afterPath="$PROJECT_DIR$/home-page/styles.css" />
     </list>
@@ -29,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home-page/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.615385">
-              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.9471229">
+              <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -49,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4230171">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="74" column="88" selection-start-line="74" selection-start-column="88" selection-end-line="74" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -67,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/home-page/styles.css" />
         <option value="$PROJECT_DIR$/home-page/index.html" />
+        <option value="$PROJECT_DIR$/home-page/styles.css" />
       </list>
     </option>
   </component>
@@ -292,18 +287,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-page/styles.css">
+    <entry file="file://$PROJECT_DIR$/home-page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.615385">
-          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="74" column="88" selection-start-line="74" selection-start-column="88" selection-end-line="74" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-page/index.html">
+    <entry file="file://$PROJECT_DIR$/home-page/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4230171">
-          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.9471229">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
           <folding />
         </state>
       </provider>

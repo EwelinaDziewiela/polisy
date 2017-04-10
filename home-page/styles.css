@@ -145,13 +145,17 @@ body {
 .insurance-options__container {
     text-align: center;
     display: inline-block;
+    margin-left: 110px;
 }
 
 .insurance-option {
     border: 1px solid #ddd;
-    padding: 20px;
     vertical-align: middle;
-    margin: 20px 0 0 20px;
+    margin: 30px 15px 15px 30px;
     height: 80px;
+}
+
+.insurance-option img {
+    width: 150px;
 }
 
