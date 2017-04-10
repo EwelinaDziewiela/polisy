@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'FuturaPTBold', 'FuturaPTDemi', 'FuturaPTMedium';
+    url('../fonts/FuturaPTBold.otf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/FuturaPTDemi.otf') format('woff2'),
+    url('../fonts/FuturaPTMedium.otf') format('woff2'),
+    url('../fonts/FuturaPTBold.otf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/FuturaPTDemi.otf') format('woff'),
+    url('../fonts/FuturaPTMedium.otf') format('woff'),
+    url('../fonts/FuturaPTBold.otf')  format('truetype'), /* Safari, Android, iOS */\
+    url('../fonts/FuturaPTDemi.otf')  format('truetype'),
+    url('../fonts/FuturaPTMedium.otf')  format('truetype'),
+    /*url('webfont.svg#svgFontName') format('svg'); !* Legacy iOS *!*/
+}
+
+body {
+    margin: 0;
+}
+
+.head-container {
+    background-color: pink;
+    height: 130px;
+}
+
+.logo-container {
+    margin-top: 30px;
+}
+
+.nav-container {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 37px 35px 0 35px;
+}
+
+
+
+.nav li a {
+    color: #343839;
+}
+
+.nav li a:hover {
+    background: white;
+}
+
+.dropdown-menu li a {
+    color: #343839;
+    font-weight: 600;
+    padding: 20px 0 15px 25px;
+}
+
+
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active {
+    text-decoration: none;
+    background-color: white;
+    color: #0E69A0;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.dropdown-menu {
+    top: 92px;
+    left: -15px;
+    border: none;
+    box-shadow: none;
+}
