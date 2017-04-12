@@ -147,6 +147,8 @@ body
   width: 100%
   vertical-align: middle
   a 
+    display: block
+    height: 100%
     text-decoration: none
     color: black
 
@@ -289,10 +291,17 @@ body
     /*opacity: 0.2*/
 /*
 
+
+.contact-form__wrapper 
+  width: 100% 
+  position: absolute 
+  text-align: center
+  bottom: -30px
+
 .contact-form__container
   background: white
   margin-top: 50px
-  height: 335px
+  position: relative
   -webkit-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
   -moz-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
   box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
@@ -302,10 +311,6 @@ body
   h2
     font-family: "FuturaPTBold"
     padding: 25px
-
-
-  .contact-form
-    position: relative
 
   .form-group input
     border-top: none
@@ -326,6 +331,9 @@ body
   .form-group
     padding: 0 25px
 
+    .checkbox-agreement 
+      padding-bottom: 20px
+
     .checkbox-agreement label
       font-size: 16px
       text-align: center
@@ -340,20 +348,17 @@ body
     background-image: url("../img/button.png")
     color: white
     padding: 15px 25px
-    position: absolute
-    left: 42%
-    top: 180px
 
 .insurance__container
   text-align: center
   margin-top: 80px
 
   .tile
-    border: 1px solid #ddd
-    vertical-align: middle
+    display: inline-block
     height: 80px
     width: 30%
-    display: inline-block
+    min-width: 200px
+    border: 1px solid #ddd
     margin: 30px 10px 10px 10px
     text-align: center
     padding: 25px
@@ -386,18 +391,19 @@ footer
       text-decoration: none
 
 .footer-newsletter
-  margin-top: 20px
+  margin-top: 40px
+  padding-left: 20px
 
   .footer-newsletter__title
     color: #787B7E
     font-family: "FuturaPTDemi"
     font-size: 13px
-    margin-top: 20px
+    margin-top: 0px
 
   .footer-newsletter__text
     font-size: 16px
     line-height: 25px
-    width: 60%
+    padding-right: 20%
 
   .footer-newsletter__form__label
     color: #0E69A0
@@ -423,7 +429,7 @@ footer
   padding-bottom: 60px
 
 .footer-logo__container
-  margin: 70px 0 0 330px
+  padding: 70px 40px
 
   .footer-logo__container__title
     text-transform: uppercase
