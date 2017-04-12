@@ -82,7 +82,6 @@ body {
 
 .section-background {
   background-image: url("../img/homepage-background.png");
-  height: 600px;
   text-align: center;
   display: inline-block; }
 
@@ -101,9 +100,10 @@ body {
 
 .buy-insurance__container {
   background: white;
-  width: 84em;
+  max-width: 84em;
   margin-top: 90px;
-  height: 395px;
+  min-height: 395px;
+  padding-bottom: 20px;
   -webkit-box-shadow: 2px 6px 29px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 6px 29px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 6px 29px -10px rgba(0, 0, 0, 0.75);
@@ -118,8 +118,12 @@ body {
   display: inline-block;
   width: 100%;
   vertical-align: middle; }
+  .insurance-options__container a {
+    text-decoration: none;
+    color: black; }
 
 .insurance-option {
+  min-width: 275px;
   border: 1px solid #ddd;
   vertical-align: middle;
   height: 80px;
@@ -158,14 +162,16 @@ body {
 
 .intro-container__tiles__single {
   text-align: left;
-  height: 220px;
-  border: 1px solid #ddd;
-  margin: 30px 40px;
-  width: 18%;
+  box-sizing: border-box;
   display: inline-block;
   padding: 20px;
   vertical-align: bottom;
   position: relative; }
+
+.intro-container__tiles__single__wrapper {
+  border: 1px solid #ddd;
+  margin: 20px;
+  height: 220px; }
 
 .blog-container {
   text-align: center;
@@ -232,7 +238,6 @@ body {
 /* */
 .contact-form__container {
   background: white;
-  width: 84em;
   margin-top: 50px;
   height: 335px;
   -webkit-box-shadow: 2px 6px 29px -10px rgba(0, 0, 0, 0.75);
@@ -294,7 +299,6 @@ body {
 
 footer {
   background-image: url("../img/footer.png");
-  height: 40em;
   margin-top: 100px; }
   footer .footer-list {
     margin-top: 40px; }
@@ -340,8 +344,7 @@ footer {
 
 .footer-info__section {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 60px;
-  margin-left: 290px; }
+  padding-bottom: 60px; }
 
 .footer-logo__container {
   margin: 70px 0 0 330px; }
