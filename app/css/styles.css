@@ -173,6 +173,10 @@ body {
   margin: 20px;
   height: 220px; }
 
+.blog-container__tiles__single__wrapper {
+  border: 1px solid #ddd;
+  margin: 20px; }
+
 .blog-container {
   text-align: center;
   margin-top: 20px; }
@@ -183,13 +187,10 @@ body {
   font-family: "FuturaPTBold"; }
 
 .blog-container__tiles__single {
-  height: 220px;
-  margin: 45px 40px;
-  width: 18%;
   display: inline-block;
-  position: relative;
-  border-bottom: 10px solid #0E69A0;
-  background-color: #0E69A0; }
+  position: relative; }
+  .blog-container__tiles__single img {
+    border-bottom: 10px solid #0E69A0; }
   .blog-container__tiles__single .blog-post {
     text-align: left;
     padding: 25px; }
@@ -353,7 +354,3 @@ footer {
     color: #A7AEB4;
     font-family: "FuturaPTDemi";
     font-size: 13px; }
-
-@media (max-width: 1070px) {
-  .blog-container__tiles__single {
-    height: 147px; } }
