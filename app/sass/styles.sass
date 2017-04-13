@@ -1,15 +1,5 @@
-@font-face
-  font-family: FuturaPTBold
-  src: url(../fonts/FuturaPTBold.otf)
-
-
-@font-face
-  font-family: FuturaPTDemi
-  src: url(../fonts/FuturaPTDemi.otf)
-
-@font-face
-  font-family: FuturaPTMedium
-  src: url(../fonts/FuturaPTMedium.otf)
+@import fonts
+@import variables
 
 
 body
@@ -30,17 +20,15 @@ body
   font-size: 18px
   padding: 37px 35px 0 35px
 
-
 .nav a
-  color: #343839
-
+  color: $font-color
 
 .nav li a:hover
   background: white
 
 
 .dropdown-menu li a
-  color: #343839
+  color: $font-color
   font-weight: 600
   padding: 10px 0 15px 30px
 
@@ -49,7 +37,7 @@ body
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active
   text-decoration: none
   background-color: white
-  color: #0E69A0
+  color: $secondary-color
 
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover
@@ -73,12 +61,11 @@ body
 .side-menu__link
   display: inline-block
   float: right !important
-  cfzolor: #0E69A0
   font-weight: 600
 
 
 .side-menu__link a
-  color: #0E69A0
+  color: $secondary-color
   font-weight: 600
   font-size: 19px
   text-align: right
@@ -93,7 +80,7 @@ body
   height: 2px
   margin-top: 20px
   border-radius: 5px
-  background-color:  #0E69A0
+  background-color:  $secondary-color
   display: inline-block
   padding: 3px
   vertical-align: middle
@@ -111,7 +98,7 @@ body
 
 
 .section-title
-  color: #0E69A0
+  color: $secondary-color
   font-family: "FuturaPTBold"
 
 
@@ -228,7 +215,7 @@ body
   display: inline-block
   position: relative
   > img 
-    border-bottom: 10px solid #0E69A0
+    border-bottom: 10px solid $secondary-color
 
 
   .blog-post
@@ -405,7 +392,7 @@ footer
     padding-right: 20%
 
   .footer-newsletter__form__label
-    color: #0E69A0
+    color: $secondary-color
     font-size: 16px
     margin-top: 20px
 
