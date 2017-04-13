@@ -31,7 +31,7 @@ body
   padding: 37px 35px 0 35px
 
 
-.nav li a
+.nav a
   color: #343839
 
 
@@ -57,6 +57,9 @@ body
   border-color: white
 
 
+.main-navbar 
+  width: 100%
+
 .dropdown-menu
   top: 92px
   left: -15px
@@ -67,15 +70,11 @@ body
 .dropdown-menu li a
   color: #707477
 
-
-
-.side-menu__container
-  text-align: right
-
-
 .side-menu__link
   display: inline-block
-  margin: 53px 10px 0 0
+  float: right !important
+  cfzolor: #0E69A0
+  font-weight: 600
 
 
 .side-menu__link a
@@ -92,12 +91,12 @@ body
 .dot
   width: 2px
   height: 2px
+  margin-top: 20px
   border-radius: 5px
   background-color:  #0E69A0
   display: inline-block
   padding: 3px
   vertical-align: middle
-  margin-right: 10px
 
 
 .section-background
@@ -228,7 +227,7 @@ body
 .blog-container__tiles__single
   display: inline-block
   position: relative
-  img 
+  > img 
     border-bottom: 10px solid #0E69A0
 
 
@@ -249,7 +248,6 @@ body
     .blog-post__date
       color: #A7AEB4
 
-
   img
     opacity: 1
     display: block
@@ -266,6 +264,7 @@ body
     position: absolute
     top: 50%
     left: 50%
+    margin-top: -80px
     transform: translate(-50%, -50%)
     -ms-transform: translate(-50%, -50%)
 
@@ -422,7 +421,6 @@ footer
     border-radius: 0
     background: none
     -webkit-box-shadow: none
-    width: 430px
 
 .footer-info__section
   border-bottom: 1px solid #ddd
