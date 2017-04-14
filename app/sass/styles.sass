@@ -189,12 +189,16 @@ body
   display: inline-block
   padding: 20px
   vertical-align: bottom
-  position: relative
+
 
 .intro-container__tiles__single__wrapper
   border: 1px solid #ddd
-  margin: 20px
   height: 220px
+  padding: 100px 0 0 10px
+
+  //margin: 20px
+  //position: absolute
+  //bottom: 0
 
 .blog-container__tiles__single__wrapper
   border: 1px solid #ddd
@@ -400,7 +404,8 @@ footer
     border: none
     background: none
     text-transform: uppercase
-    border-bottom: 2px solid #ddd
+    border-bottom: 1px solid #ddd
+    border-radius: 0
 
   .footer-newsletter__form input
     border: none
@@ -408,6 +413,7 @@ footer
     border-radius: 0
     background: none
     -webkit-box-shadow: none
+    width: 100%
 
 .footer-info__section
   border-bottom: 1px solid #ddd
@@ -421,4 +427,51 @@ footer
     color: #A7AEB4
     font-family: "FuturaPTDemi"
     font-size: 13px
+
+.main-menu__mobile
+  display: none
+
+@media (max-width : 1000px)
+
+  .menu-icon__container
+    width: 40px
+    display: block
+
+    .menu-icon
+      width: 40px
+      position: absolute
+      top: -60px
+      right: 10px
+
+  .nav-container
+    display: none
+
+  .main-menu__mobile
+    display: block
+    text-align: center
+    width: 100%
+
+    .navbar-mobile
+      background: white
+      width: 100%
+
+    .navbar-mobile li
+      display: block
+      width: 100%
+
+  .dropdown-menu
+    text-align: center
+    position: inherit
+
+  .dropdown li
+    width: 100%
+
+  .navbar-nav
+    margin: 0
+
+
+    .open
+
+      .dropdown-menu>li>a
+        padding: 0
 
