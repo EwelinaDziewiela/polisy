@@ -1,11 +1,13 @@
 @import fonts
 @import variables
 
-
 body
   margin: 0
   font-family: "FuturaPTMedium"
 
+
+.validation-error
+  color: red
 
 .head-container
   height: 130px
@@ -25,6 +27,8 @@ body
 
 .nav li a:hover
   background: white
+  color: white
+  background: #0E69A0
 
 
 .dropdown-menu li a
@@ -115,6 +119,7 @@ body
   max-width: 84em
   margin-top: 90px
   min-height: 395px
+  margin-bottom: -150px;
   padding-bottom: 20px
   -webkit-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
   -moz-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
@@ -147,10 +152,11 @@ body
   display: inline-block
   margin: 30px 10px 10px 10px
   text-align: left
-  padding: 10px
   font-family: "FuturaPTDemi"
   color: #707477
   font-size: 15px
+  a  
+    padding: 10px
 
 
 .insurance-option
@@ -201,6 +207,7 @@ body
   //bottom: 0
 
 .blog-container__tiles__single__wrapper
+  display: block
   border: 1px solid #ddd
   margin: 20px
 
@@ -352,11 +359,13 @@ body
     border: 1px solid #ddd
     margin: 30px 10px 10px 10px
     text-align: center
-    padding: 25px
     font-family: "FuturaPTDemi"
     color: #707477
     font-size: 16px
     letter-spacing: 1px
+
+    a 
+      padding: 25px
 
 footer
   background-image: url("../img/footer.png")
