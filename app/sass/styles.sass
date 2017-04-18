@@ -44,10 +44,8 @@ body
 .nav a
   color: $font-color
 
-.nav li a:hover
-  background: white
-  color: white
-  background: #0E69A0
+.nav li a:hover, .nav li a.active
+  color: #0E69A0
 
 
 .dropdown-menu li a
@@ -70,6 +68,8 @@ body
 
 .main-navbar 
   width: 100%
+  > li a.active 
+    color: $secondary-color
 
 .dropdown-menu
   top: 92px
@@ -117,16 +117,15 @@ body
 
 
   &::after 
-    content: "";
-    background: url("../img/home_page-bg.png");
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-
+    content: ""
+    background: url("../img/home_page-bg.png")
+    opacity: 0.5
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    position: absolute
+    z-index: -1
 
 
 .section-title__container
@@ -251,6 +250,7 @@ body
   margin: 20px
   &:hover
     text-decoration: none
+    border: 1px solid #0E69A0
 
 .blog-container__img-wrapper
   background: #0E69A0
