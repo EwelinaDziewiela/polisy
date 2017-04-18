@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid fixed_menu">
             <div class="row">
                 <div class="col-md-12">
                     <div class="head-container">
@@ -116,7 +116,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="main-container">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 section-background">
@@ -148,18 +148,18 @@
 
                             <div class="insurance-option">
                                 <a href="">
-                                     ZDROWOTNE <img src="../img/polmed.png" />
+                                     ZDROWOTNE <img src="../assets/polmed.png" />
                                 </a>
                             </div>
 
                             <div class="insurance-option">
                                 <a href="">
-                                    ZDROWOTNE <img src="../img/axa.png" />
+                                    ZDROWOTNE <img src="../assets/axa.png" />
                                 </a>
                             </div>
 
                             <div class="insurance-option">
-                                <a href=""> ZDROWOTNE <img src="../img/luxmed.png" />
+                                <a href=""> ZDROWOTNE <img src="../assets/luxmed.png" />
                                 </a>
                             </div>
 
@@ -269,8 +269,9 @@
                     <div class="blog-container__tiles container">
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog1.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog1.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -291,8 +292,9 @@
 
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog2.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog2.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -313,8 +315,9 @@
 
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog3.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog3.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -335,8 +338,9 @@
 
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog4.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog4.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -357,8 +361,9 @@
 
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog5.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog5.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -379,8 +384,9 @@
 
                         <div class="blog-container__tiles__single col-md-4 col-sm-6">
                             <a href="#" class="blog-container__tiles__single__wrapper">
-                                <img src="../img/blog6.png" />
-
+                                <div class="blog-container__img-wrapper">
+                                    <img src="../assets/blog6.png" />
+                                </div>
                                 <div class="middle hidden-xs">
                                     <div class="plus-icon">
                                         <img src="img/plusicon.png" />
@@ -615,24 +621,19 @@
                 </div>
 
                 <div class="col-sm-12 col-md-6 footer-newsletter">
-                    <p class="footer-newsletter__title">ZAPISZ SIĘ NA NASZ NEWSLETTER</p>
+                    <p class="footer-list__title">ZAPISZ SIĘ NA NASZ NEWSLETTER</p>
 
                     <p class="footer-newsletter__text">
                         Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy
                         foster collaborative thinking to further the overall proposition organically grow.
                     </p>
-
-                    <label for="email" class="footer-newsletter__form__label">
-                    Wpisz swój adres e-mail i bądź na bieżąco...
-                </label>
-
                     <form class="footer-newsletter__form form-inline">
-                        <div class="form-group">
+                        <div>
                             <div class="row">
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="email" />
+                                <div class="col-sm-8">
+                                    <input type="email" class="form-control" id="email" placeholder="Wpisz swój adres e-mail i bądź na bieżąco..."/>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-4">
                                     <button type="submit" class="btn btn-default footer-newsletter__form__btn">zapisz się
                                 </button>
                                 </div>
@@ -642,14 +643,17 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-xs-12">
+                    <div class="spacer"></div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-6">
                     <div class="footer-logo__container">
                         <p class="footer-logo__container__title">
                             bezpieczny zakup polisy gwarantują
                         </p>
-                        <img src="img/komisja.png" />
-                        <img src="img/opineo.png" />
-                        <img src="img/ufg.png" />
+                        <img src="img/footer-gwarancja.png" />
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -657,7 +661,7 @@
                         <p class="footer-logo__container__title">
                             Ta strona jest zabezpieczona certyfikatem @ True Buisnessid env
                         </p>
-                        <img src="img/trueb.png" />
+                        <img src="img/secure.png" />
                     </div>
                 </div>
             </div>

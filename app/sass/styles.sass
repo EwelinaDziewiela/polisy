@@ -1,10 +1,29 @@
 @import fonts
 @import variables
 
+
+
 body
   margin: 0
   font-family: "FuturaPTMedium"
 
+
+.fixed_menu
+  width: 100%
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background: white;
+
+.spacer 
+  height: 1px
+  margin: 45px 0
+  background: #ddd
+
+
+.main-container
+  margin-top: 130px
 
 .validation-error
   color: red
@@ -91,9 +110,23 @@ body
 
 
 .section-background
-  background-image: url("../img/homepage-background.png")
+  background: rgba(#0470ab, 0.07)
   text-align: center
+  position: relative
   display: inline-block
+
+
+  &::after 
+    content: "";
+    background: url("../img/home_page-bg.png");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+
 
 
 .section-title__container
@@ -196,21 +229,31 @@ body
   padding: 20px
   vertical-align: bottom
 
+.intro-container__tiles__single__title
+  font-family: FuturaPTBold
+
+.intro-container__tiles__single__text
+  color: #A7AEB4
 
 .intro-container__tiles__single__wrapper
   border: 1px solid #ddd
   height: 220px
-  padding: 100px 0 0 10px
+  padding: 120px 0 0 10px
 
-  //margin: 20px
-  //position: absolute
-  //bottom: 0
+  // margin: 20px
+  // position: absolute
+  // bottom: 0
 
 .blog-container__tiles__single__wrapper
+  text-decoration: none
   display: block
   border: 1px solid #ddd
   margin: 20px
+  &:hover
+    text-decoration: none
 
+.blog-container__img-wrapper
+  background: #0E69A0
 
 .blog-container
   text-align: center
@@ -366,9 +409,10 @@ body
 
     a 
       padding: 25px
+      line-height: 30px
 
 footer
-  background-image: url("../img/footer.png")
+  background: #f3f8fb
   margin-top: 100px
 
   .footer-list
@@ -381,32 +425,30 @@ footer
     ul li
       list-style-type: none
 
-    .footer-list__title
-      color: #787B7E
-      font-family: "FuturaPTDemi"
-      font-size: 13px
-    a
-      color: black
-      font-size: 16px
-
   .footer-list
     a:hover
       text-decoration: none
+
+
+  .footer-list__title
+    color: #787B7E
+    font-family: "FuturaPTDemi"
+    font-size: 11px
+    margin-bottom: 20px;
+  a
+    color: black
+    font-size: 14px
+    line-height: 23px
+    &:hover 
+      color: $secondary-color    
 
 .footer-newsletter
   margin-top: 40px
   padding-left: 20px
 
-  .footer-newsletter__title
-    color: #787B7E
-    font-family: "FuturaPTDemi"
-    font-size: 13px
-    margin-top: 0px
-
   .footer-newsletter__text
-    font-size: 16px
+    font-size: 14px
     line-height: 25px
-    padding-right: 20%
 
   .footer-newsletter__form__label
     color: $secondary-color
@@ -416,6 +458,8 @@ footer
   .footer-newsletter__form__btn
     border: none
     background: none
+    margin-top: 2px
+    width: 100%
     text-transform: uppercase
     border-bottom: 1px solid #ddd
     border-radius: 0
@@ -427,19 +471,33 @@ footer
     background: none
     -webkit-box-shadow: none
     width: 100%
+    &::-webkit-input-placeholder 
+      color: $secondary-color
+    
+    &:-moz-placeholder 
+      opacity:  1
+    
+    &::-moz-placeholder 
+      opacity:  1
+    
+    &:-ms-input-placeholder 
+      color: $secondary-color
+    
+
+
 
 .footer-info__section
   border-bottom: 1px solid #ddd
   padding-bottom: 60px
 
 .footer-logo__container
-  padding: 70px 0px
+  padding: 20px 0px
 
   .footer-logo__container__title
     text-transform: uppercase
     color: #A7AEB4
     font-family: "FuturaPTDemi"
-    font-size: 13px
+    font-size: 11px
 
 .main-menu__mobile
   display: none
@@ -481,7 +539,6 @@ footer
 
   .navbar-nav
     margin: 0
-
 
     .open
 
