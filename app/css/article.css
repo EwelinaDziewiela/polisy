@@ -1,0 +1,75 @@
+@font-face {
+  font-family: FuturaPTBold;
+  src: url(../fonts/FuturaPTBold.otf); }
+
+@font-face {
+  font-family: FuturaPTDemi;
+  src: url(../fonts/FuturaPTDemi.otf); }
+
+@font-face {
+  font-family: FuturaPTMedium;
+  src: url(../fonts/FuturaPTMedium.otf); }
+
+.breadcrumb-container {
+  border-bottom: 1px solid #C7CED2; }
+
+.breadcrumb > li + li:before {
+  content: '\25CF';
+  color: #C7CED2; }
+
+.breadcrumb {
+  background-color: white;
+  margin-bottom: 0;
+  padding: 15px 0; }
+  .breadcrumb li a {
+    color: #88959f; }
+
+.article-title {
+  color: #343839;
+  font-family: "FuturaPTBold";
+  margin-top: 30px;
+  margin-bottom: 0; }
+
+.article-details {
+  font-family: "FuturaPTDemi";
+  margin-top: 0; }
+  .article-details li a {
+    text-transform: uppercase;
+    color: #343839; }
+
+.article-details > li + li:before {
+  color: #343839; }
+
+.article-subtitle {
+  font-family: "FuturaPTBold";
+  margin: 40px 0; }
+
+.article-text {
+  margin: 0;
+  text-align: justify;
+  line-height: 25px; }
+
+.side-article {
+  padding-left: 40px; }
+
+.categories-title {
+  text-transform: uppercase;
+  color: #88959f;
+  margin: 30px 0; }
+
+.categories-list {
+  padding: 0; }
+  .categories-list li {
+    list-style-type: none; }
+    .categories-list li a {
+      color: #3b4348; }
+      .categories-list li a span {
+        color: #88959f; }
+
+.tag {
+  display: inline-block;
+  border: 1px solid #C7CED2;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #343839;
+  margin: 10px 10px 0 0; }

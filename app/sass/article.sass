@@ -1,0 +1,73 @@
+@import variables
+@import fonts
+
+.breadcrumb-container
+  border-bottom: 1px solid $third-color
+
+.breadcrumb>li+li:before
+    content: '\25CF'
+    color: $third-color
+
+.breadcrumb
+    background-color: white
+    margin-bottom: 0
+    padding: 15px 0
+
+    li
+      a
+        color: $fifth-color
+
+.article-title
+  color: $font-color
+  font-family: "FuturaPTBold"
+  margin-top: 30px
+  margin-bottom: 0
+
+.article-details
+  font-family: "FuturaPTDemi"
+  margin-top: 0
+  li
+    a
+      text-transform: uppercase
+      color: $font-color
+
+
+.article-details>li+li:before
+  color: $font-color
+
+.article-subtitle
+  font-family: "FuturaPTBold"
+  margin: 40px 0
+
+.article-text
+  margin: 0
+  text-align: justify
+  line-height: 25px
+
+
+.side-article
+  padding-left: 40px
+
+.categories-title
+  text-transform: uppercase
+  color: $fifth-color
+  margin: 30px 0
+
+.categories-list
+  padding: 0
+  li
+    list-style-type: none
+
+    a
+      color: $fourth-color
+
+      span
+        color: $fifth-color
+
+.tag
+  display: inline-block
+  border: 1px solid $third-color
+  padding: 10px 15px
+  text-transform: uppercase
+  color: $font-color
+  margin: 10px 10px 0 0
