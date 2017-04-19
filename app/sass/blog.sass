@@ -1,0 +1,55 @@
+@import variables
+@import fonts
+
+
+.blog__title
+  font-size: 32px
+  font-family: FuturaPTBold
+
+.blog__desc 
+  font-size: 16px   
+  font-family: FuturaPTMedium 
+  color: #88959f
+  // TODO move it to pagination file 
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
+  z-index: 3
+  color: black
+  cursor: default
+  background-color: transparent
+  border-color: transparent
+
+
+.pagination>li>a, .pagination>li>span 
+  color: #337ab7;
+  text-decoration: none
+  background-color: #fff
+  border: 0
+
+
+.pagination > li > a, .pagination > li > span 
+  vertical-align: top
+  color: #787B7E;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0;  
+
+
+.paggination__button
+ margin: 0 30px;
+ border: 1px solid #787B7E !important
+ padding: 7px 20px !important 
+ border-radius: 3px !important
+
+.paggination__button--left
+  float: left
+  margin-right: 60px;
+
+
+.paggination__button--right
+  float: right 
+  margin-left: 60px !important
+
+.blog-pagination 
+  text-align: center
