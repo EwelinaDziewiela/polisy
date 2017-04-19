@@ -50,12 +50,12 @@
   line-height: 25px; }
 
 .side-article {
-  padding-left: 40px; }
+  padding: 50px 0 0 80px; }
 
 .categories-title {
   text-transform: uppercase;
   color: #88959f;
-  margin: 30px 0; }
+  margin-top: 50px; }
 
 .categories-list {
   padding: 0; }
@@ -66,10 +66,30 @@
       .categories-list li a span {
         color: #88959f; }
 
+.tags-container {
+  margin: 30px 0 15px 0; }
+
 .tag {
   display: inline-block;
   border: 1px solid #C7CED2;
-  padding: 10px 15px;
+  padding: 10px 20px;
   text-transform: uppercase;
   color: #343839;
-  margin: 10px 10px 0 0; }
+  margin: 20px 20px 0 0;
+  font-family: "FuturaPTDemi";
+  font-size: 16px;
+  letter-spacing: 1px; }
+
+.profile-container {
+  margin-top: 30px; }
+
+.profile-img__container {
+  display: inline-block; }
+
+.profile-description__container {
+  display: inline-block; }
+
+.profile-text {
+  text-align: justify;
+  line-height: 20px;
+  margin: 20px 0 0 13px; }
