@@ -2,6 +2,7 @@
 @import variables
 @import article
 @import blog
+@import form
 
 
 
@@ -17,6 +18,7 @@ body
   right: 0;
   z-index: 100;
   background: white;
+  border: 1px solid #C7CED2;
 
 .spacer 
   height: 1px
@@ -28,7 +30,7 @@ body
   margin-top: 130px
 
 .validation-error
-  color: red
+  color: $error
 
 .head-container
   height: 130px
@@ -198,6 +200,7 @@ body
 
 .insurance-option
   img
+    margin-left: 15px
     width: 140px
     display: inline-block
 
@@ -242,13 +245,14 @@ body
 .intro-container__tiles__single__wrapper
   border: 1px solid #ddd
   height: 220px
-  padding: 120px 0 0 10px
+  padding: 120px 30px 0 30px
 
   // margin: 20px
   // position: absolute
   // bottom: 0
 
 .blog-container__tiles__single__wrapper
+  border-radius: 3px 3px 0 0
   text-decoration: none
   display: block
   border: 1px solid #ddd
@@ -259,6 +263,7 @@ body
 
 .blog-container__img-wrapper
   background: #0E69A0
+  border-radius: 3px 3px 0 0;
 
 .blog-container
   text-align: center
@@ -296,6 +301,7 @@ body
 
   img
     opacity: 1
+    border-radius: 3px 3px 0 0;
     display: block
     width: 100%
     height: auto
@@ -315,12 +321,12 @@ body
     -ms-transform: translate(-50%, -50%)
 
 
-.blog-container__tiles__single:hover img
+.blog-container__tiles__single a:hover img
   opacity: 0.7
 
 
 
-.blog-container__tiles__single:hover .middle
+.blog-container__tiles__single a:hover .middle
   opacity: 1
 
 
@@ -364,7 +370,6 @@ body
     border-left: none
     -webkit-box-shadow: none
     border-radius: 0
-    border-bottom: 2px solid #ddd
     color: black
 
   .form-group label
@@ -441,7 +446,7 @@ footer
     font-size: 11px
     margin-bottom: 20px;
   a
-    color: black
+    color: #3b4348
     font-size: 14px
     line-height: 23px
     &:hover 

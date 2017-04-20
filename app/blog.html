@@ -277,17 +277,19 @@
         </div>
     </div>
 </article>
-<nav class="blog-pagination" aria-label="blog paggination navigation">
-  <ul class="pagination">
-    <li class="disabled"><a href="#" aria-label="Previous"  class="paggination__button paggination__button--left"><span aria-hidden="true"> POPRZEDNI</span></a></li>
-    <li class=""><a href="#">1 <span class="sr-only">(current)</span></a></li>
-    <li class="active"><a href="#"> 2 <span class="sr-only">(current)</span></a></li>
-    <li class=""><a href="#">... <span class="sr-only">(current)</span></a></li>
-    <li><a href="#">10<span class="sr-only">(current)</span></a></li>
-    <li ><a href="#" class="paggination__button paggination__button--right aria-label="Previous"><span aria-hidden="true"> NASTĘPNY</span></a></li>
-  </ul>
-</nav>
 
+<nav class="blog-pagination col-xs-12" aria-label="blog paggination navigation">
+    <div class="paggination__wrapper">
+        <a href="#" aria-label="Previous"  class="paggination__button paggination__button--left"><span aria-hidden="true"> POPRZEDNI</span></a>    
+        <ul class="pagination hidden-xs">
+            <li class=""><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#"> 2 <span class="sr-only">(current)</span></a></li>
+            <li class=""><a href="#">... <span class="sr-only">(current)</span></a></li>
+            <li><a class="" href="#">10<span class="sr-only">(current)</span></a></li>
+        </ul>
+        <a href="#" class="paggination__button paggination__button--right" aria-label="Previous"><span aria-hidden="true"> NASTĘPNY</span></a>
+    </div>
+</nav>
 <footer>
     <div class="container">
         <div class="row">
