@@ -1,3 +1,7 @@
+.pagination
+  margin: 0
+  padding: 0
+
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
   z-index: 3
   color: black
@@ -6,36 +10,43 @@
   border-color: transparent
 
 
-.pagination>li>a, .pagination>li>span 
+.pagination>li>a, .pagination>li>span, .paggination__button span, .paggination__button
   color: #337ab7;
   text-decoration: none
   background-color: #fff
   border: 0
 
 
-.pagination > li > a, .pagination > li > span 
+.pagination > li > a, .pagination > li > span, .paggination__button, .paggination__button span
   vertical-align: top
   color: #787B7E;
   text-decoration: none;
   background-color: #fff;
   border: 0;  
 
+.paggination__button:hover
+  text-decoration: none
 
 .paggination__button
  margin: 0 30px;
- border: 1px solid #787B7E !important
- padding: 7px 20px !important 
- border-radius: 3px !important
+ color: #787B7E;
+ border: 1px solid #787B7E 
+ padding: 7px 20px 
+ border-radius: 3px
 
 .paggination__button--left
   float: left
   margin-right: 60px;
+  margin-left: 0
 
 
 .paggination__button--right
   float: right 
-  margin-left: 60px !important
+  margin-left: 60px
+  margin-right: 0
 
-.blog-pagination 
-  text-align: center
+.paggination__wrapper
+  max-width: 500px
+  display: inline-block
   
+
