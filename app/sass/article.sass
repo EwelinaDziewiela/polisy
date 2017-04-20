@@ -49,7 +49,8 @@
 
 
 .side-article
-  padding: 0px 0 0 40px
+  padding: 0 0 0 40px
+
 
 .categories-title
   text-transform: uppercase
@@ -81,16 +82,38 @@
   font-size: 16px
   letter-spacing: 1px
 
+.tag:hover, .tag:focus
+  text-decoration: none
+  cursor: pointer
+  background-color: $hover-background
+
+
 .profile-container
-  margin-top: 30px
+  margin-top: 60px
 
 .profile-img__container
   display: inline-block
 
 .profile-description__container
   display: inline-block
+  vertical-align: bottom
+  margin-left: 15px
 
 .profile-text
   text-align: justify
   line-height: 20px
-  margin: 20px 0 0 13px
+  margin: 20px 20px 0 13px
+
+.profile-social__icon
+  margin: 0 2px
+
+.profile-name
+  margin: 0
+  color: $fourth-color
+  font-family: "FuturaPTDemi"
+
+.profile-job__description
+  margin: 0
+
+.side-article__line
+  border-top: 1px solid $third-color
