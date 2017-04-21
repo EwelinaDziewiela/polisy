@@ -3,22 +3,34 @@ $(".menu-icon").click(function () {
 });
 
 
-$(document).ready(function() {
 
 
-    var cookieAlert = $('<div class="cookie-alert">' +
-        '<p class="cookie-alert__text">Zbieramy cookies cokolwiek to znaczy.' +
-        '<a href="" class="cookie-alert__policy">Akceptujesz naszą politykę prywatności i cookies?</a></p>' +
-        '<p class="cookie-alert__btn"><a class="cookie-alert__link">akceptuję!</a></p>' +
-        '</div>'
-        );
+//$(document).ready(function () {
+//
+//    $(".cookie-alert__btn").click(function () {
+//        $(".cookie-alert").hide();
+//        localStorage.setItem("accepted", "true");
+//    });
+//        localStorage.getItem("accepted");
+//    console.log(localStorage.getItem("accepted"));
+//    if (localStorage.getItem("accepted") === "true") {
+//        $(".cookie-alert").hide();
+//    }
+//});
 
-    $(".cookie-alert__wrapper").append(cookieAlert);
 
-    $(".cookie-alert__btn").click(function() {
-        $(".cookie-alert__wrapper").children(cookieAlert).remove();
-
-
-    })
-
+$(document).ready(function () {
+    if(localStorage.getItem("accepted") !== "true") {
+        $(".cookie-alert").show();
+    }
+    else {
+        $(".cookie-alert").hide();
+    }
+    $(".cookie-alert__btn").click(function () {
+        localStorage.setItem("accepted", "true");
+        $(".cookie-alert").hide();
+    });
+    console.log(localStorage.getItem("accepted"));
 });
+
+

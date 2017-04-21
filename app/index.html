@@ -2,31 +2,73 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
-    <meta name="viewport" content="width=device-width" initial-scale="1" />
-    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          type="text/css"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width" initial-scale="1"/>
+    <meta charset="UTF-8"/>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid fixed_menu">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="head-container">
-                        <div class="col-lg-2  col-sm-3 col-xs-8 logo-container">
-                            <img class="logo" src="img/logo.png">
+<header>
+    <div class="container-fluid fixed_menu">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="head-container">
+                    <div class="col-lg-2  col-sm-3 col-xs-8 logo-container">
+                        <img class="logo" src="img/logo.png">
+                    </div>
+
+
+                    <nav class="col-xs-4 main-menu__mobile">
+                        <div class="menu-icon__container">
+                            <img class="menu-icon" src="img/menu-icon-15.png"/>
                         </div>
+                        <div class="container-fluid">
+                            <ul class="nav navbar-nav navbar-mobile hidden">
+                                <li><a href="#" class="active">Home</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Ubezpieczenia</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Zdrowotne</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Turystyczne</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Nieruchomości</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Oferta</a></li>
+                                <li><a href="#">O nas</a></li>
+                                <li><a href="#">Dlaczego warto?</a></li>
+                                <li>
+                                    <a href="#">Zadzwońcie do mnie</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zadzwoń do nas</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
 
 
-                        <nav class="col-xs-4 main-menu__mobile">
-                            <div class="menu-icon__container">
-                                <img class="menu-icon" src="img/menu-icon-15.png" />
-                            </div>
+                    <div class="col-lg-10 col-sm-9 col-xs-4 nav-container">
+                        <nav class="navbar">
+
                             <div class="container-fluid">
-                                <ul class="nav navbar-nav navbar-mobile hidden">
-                                    <li><a href="#" class="active">Home</a></li>
-                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Ubezpieczenia</a>
+                                <ul class="nav navbar-nav main-navbar">
+                                    <li>
+                                        <a class="active" href="#">Home</a>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ubezpieczenia</a>
 
                                         <ul class="dropdown-menu">
                                             <li>
@@ -42,415 +84,378 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Oferta</a></li>
-                                    <li><a href="#">O nas</a></li>
-                                    <li><a href="#">Dlaczego warto?</a></li>
+
                                     <li>
-                                        <a href="#">Zadzwońcie do mnie</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Zadzwoń do nas</a>
+                                        <a href="#">Oferta</a>
                                     </li>
 
+                                    <li>
+                                        <a href="#">O nas</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Dlaczego warto?</a>
+                                    </li>
+
+                                    <li class="side-menu__link visible-lg">
+                                        <a href="#">Zadzwońcie do mnie</a>
+                                    </li>
+
+                                    <li class="side-menu__link visible-lg">
+                                        <span class="dot"></span>
+                                    </li>
+                                    <li class="side-menu__link">
+                                        <a href="#">Zadzwoń do nas</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
+<section class="main-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 section-background">
+                <div class="section-title__container">
+                    <h1 class="section-title">
+                        Nie wiesz którą ofertę wybrać? Napisz! Pomożemy!
+                    </h1>
 
-                        <div class="col-lg-10 col-sm-9 col-xs-4 nav-container">
-                            <nav class="navbar">
+                    <p class="section-lead">
+                        Ubezpieczenia nie są łatwe, a od ilości ofert może rozboleć głowa. Jesteśmy po to by Ci pomóc
+                        wybrać najlepszą dla Ciebie
+                        ofertę.
 
-                                <div class="container-fluid">
-                                    <ul class="nav navbar-nav main-navbar">
-                                        <li>
-                                            <a class="active" href="#">Home</a>
-                                        </li>
+                        <br> Jeżeli masz pytania - napisz do nas. Skontaktujemy się z Tobą i wspólnie wybierzemy
+                        najlepsze
+                        dla Ciebie ubezpieczenie.
+                    </p>
+                </div>
 
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ubezpieczenia</a>
+                <div class="buy-insurance__container">
+                    <h1 class="buy-insurance__title">Kup ubezpieczenie</h1>
 
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a href="#">Zdrowotne</a>
-                                                </li>
+                    <div class="insurance-options__container">
+                        <div class="insurance-option">
+                            <a href="">PODRÓŻ</a>
+                        </div>
 
-                                                <li>
-                                                    <a href="#">Turystyczne</a>
-                                                </li>
+                        <div class="insurance-option">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
 
-                                                <li>
-                                                    <a href="#">Nieruchomości</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                        <div class="insurance-option">
+                            <a href="">
+                                ZDROWOTNE <img src="../assets/polmed.png"/>
+                            </a>
+                        </div>
 
-                                        <li>
-                                            <a href="#">Oferta</a>
-                                        </li>
+                        <div class="insurance-option">
+                            <a href="">
+                                ZDROWOTNE <img src="../assets/axa.png"/>
+                            </a>
+                        </div>
 
-                                        <li>
-                                            <a href="#">O nas</a>
-                                        </li>
+                        <div class="insurance-option">
+                            <a href=""> ZDROWOTNE <img src="../assets/luxmed.png"/>
+                            </a>
+                        </div>
 
-                                        <li>
-                                            <a href="#">Dlaczego warto?</a>
-                                        </li>
-
-                                        <li class="side-menu__link visible-lg">
-                                            <a href="#">Zadzwońcie do mnie</a>
-                                        </li>
-
-                                        <li class="side-menu__link visible-lg">
-                                            <span class="dot"></span>
-                                        </li>
-                                        <li class="side-menu__link">
-                                            <a href="#">Zadzwoń do nas</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
+                        <div class="insurance-option">
+                            <a href="">NIERUCHOMOŚCI</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section class="main-container">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 section-background">
-                    <div class="section-title__container">
-                        <h1 class="section-title">
-                            Nie wiesz którą ofertę wybrać? Napisz! Pomożemy!
-                        </h1>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 intro-container">
+                <div class="intro-container__description">
+                    <h1>
+                        Dlaczego klienci nas pokochali?
+                    </h1>
 
-                        <p class="section-lead">
-                            Ubezpieczenia nie są łatwe, a od ilości ofert może rozboleć głowa. Jesteśmy po to by Ci pomóc wybrać najlepszą dla Ciebie
-                            ofertę.
+                    <p class="intro-container__description__text">
+                        Ubezpieczenia nie są łatwe, a od ilości ofert może rozboleć głowa. Jesteśmy po to by Ci pomóc
+                        wybrać najlepszą dla Ciebie
+                        ofertę.
 
-                            <br> Jeżeli masz pytania - napisz do nas. Skontaktujemy się z Tobą i wspólnie wybierzemy najlepsze
-                            dla Ciebie ubezpieczenie.
-                        </p>
+                        <br> Jeżeli masz pytania - napisz do nas. Skontaktujemy się z Tobą i wspólnie wybierzemy
+                        najlepsze
+                        dla Ciebie ubezpieczenie.
+                    </p>
+                </div>
+
+                <div class="intro-container__tiles container">
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
+
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="buy-insurance__container">
-                        <h1 class="buy-insurance__title">Kup ubezpieczenie</h1>
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
 
-                        <div class="insurance-options__container">
-                            <div class="insurance-option">
-                                <a href="">PODRÓŻ</a>
-                            </div>
-
-                            <div class="insurance-option">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-
-                            <div class="insurance-option">
-                                <a href="">
-                                     ZDROWOTNE <img src="../assets/polmed.png" />
-                                </a>
-                            </div>
-
-                            <div class="insurance-option">
-                                <a href="">
-                                    ZDROWOTNE <img src="../assets/axa.png" />
-                                </a>
-                            </div>
-
-                            <div class="insurance-option">
-                                <a href=""> ZDROWOTNE <img src="../assets/luxmed.png" />
-                                </a>
-                            </div>
-
-                            <div class="insurance-option">
-                                <a href="">NIERUCHOMOŚCI</a>
-                            </div>
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
                         </div>
+                    </div>
+
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
+
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
+
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
+
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="intro-container__tiles__single col-md-4 col-sm-6">
+                        <div class="intro-container__tiles__single__wrapper">
+                            <p class="intro-container__tiles__single__title">WYGODA</p>
+
+                            <p class="intro-container__tiles__single__text">
+                                Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<article>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 blog-container">
+                <div class="blog-container__title">
+                    <h1>Co na blogu?</h1>
+                </div>
+
+                <div class="blog-container__tiles container">
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog1.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog2.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog3.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog4.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog5.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="blog-container__tiles__single col-md-4 col-sm-6">
+                        <a href="#" class="blog-container__tiles__single__wrapper">
+                            <div class="blog-container__img-wrapper">
+                                <img src="../assets/blog6.png"/>
+                            </div>
+                            <div class="middle hidden-xs">
+                                <div class="plus-icon">
+                                    <img src="img/plusicon.png"/>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <p class="blog-post__date">04/04/2017</p>
+
+                                <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
+
+                                <p class="blog-post__lead">
+                                    Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</article>
 
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 intro-container">
-                    <div class="intro-container__description">
-                        <h1>
-                            Dlaczego klienci nas pokochali?
-                        </h1>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-form__container">
+                    <h2>Ubezpieczenia turystyczne</h2>
 
-                        <p class="intro-container__description__text">
-                            Ubezpieczenia nie są łatwe, a od ilości ofert może rozboleć głowa. Jesteśmy po to by Ci pomóc wybrać najlepszą dla Ciebie
-                            ofertę.
-
-                            <br> Jeżeli masz pytania - napisz do nas. Skontaktujemy się z Tobą i wspólnie wybierzemy najlepsze
-                            dla Ciebie ubezpieczenie.
-                        </p>
-                    </div>
-
-                    <div class="intro-container__tiles container">
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="intro-container__tiles__single col-md-4 col-sm-6">
-                            <div class="intro-container__tiles__single__wrapper">
-                                <p class="intro-container__tiles__single__title">WYGODA</p>
-
-                                <p class="intro-container__tiles__single__text">
-                                    Kup ubezpieczenia w kilku prostych krokach bez wychodzenia z domu.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <article>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 blog-container">
-                    <div class="blog-container__title">
-                        <h1>Co na blogu?</h1>
-                    </div>
-
-                    <div class="blog-container__tiles container">
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog1.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog2.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog3.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog4.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog5.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="blog-container__tiles__single col-md-4 col-sm-6">
-                            <a href="#" class="blog-container__tiles__single__wrapper">
-                                <div class="blog-container__img-wrapper">
-                                    <img src="../assets/blog6.png" />
-                                </div>
-                                <div class="middle hidden-xs">
-                                    <div class="plus-icon">
-                                        <img src="img/plusicon.png" />
-                                    </div>
-                                </div>
-
-                                <div class="blog-post">
-                                    <p class="blog-post__date">04/04/2017</p>
-
-                                    <p class="blog-post__title">domyślny artykuł &#9679; 1</p>
-
-                                    <p class="blog-post__lead">
-                                        Kup ubezpieczenie w kilku prostych krokach bez wychodzenia z domu
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact-form__container">
-                        <h2>Ubezpieczenia turystyczne</h2>
-
-                        <div class="row">
-                            <form class="contact-form">
-                                <div class="form-group">
-                                    <div class="col-sm-4 single-input">
-                                        <label for="name">
+                    <div class="row">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <div class="col-sm-4 single-input">
+                                    <label for="name">
                                         IMIĘ I NAZWISKO
                                         <span style="color:red;margin-left:2px;font-size:8px;">&#9679;</span>
                                     </label>
-                                        <input type="text" class="form-control form__input error" id="name" name="name" />
-                                        <p class="validation-error"> No takiego imienia to nie przyjmiemy...</p>
-                                    </div>
+                                    <input type="text" class="form-control form__input error" id="name" name="name"/>
+                                    <p class="validation-error"> No takiego imienia to nie przyjmiemy...</p>
+                                </div>
 
-                                    <div class="col-sm-4 single-input">
-                                        <label for="mail">
+                                <div class="col-sm-4 single-input">
+                                    <label for="mail">
                                         ADRES E-MAIL
 
                                         <span style="color:red;margin-left:2px;font-size:8px;">&#9679;</span>
                                     </label>
 
-                                        <input type="email" class="form-control form__input success" id="mail" name="mail" />
-                                    </div>
+                                    <input type="email" class="form-control form__input success" id="mail" name="mail"/>
+                                </div>
 
-                                    <div class="col-sm-4 single-input">
-                                        <label for="tel">
+                                <div class="col-sm-4 single-input">
+                                    <label for="tel">
                                         NUMER TELEFONU
 
                                         <span style="color:red;margin-left:2px;font-size:8px;">&#9679;</span>
                                     </label>
 
-                                        <input type="tel" class="form-control form__input" id="tel" name="tel" />
-                                    </div>
+                                    <input type="tel" class="form-control form__input" id="tel" name="tel"/>
+                                </div>
 
-                                    <div class="col-md-12 checkbox checkbox-agreement">
-                                        <label>
+                                <div class="col-md-12 checkbox checkbox-agreement">
+                                    <label>
                                         <input type="checkbox" name="checkbox"/>
 
                                         Wyrażam zgodę na otrzymywanie drogą
@@ -462,217 +467,225 @@
                                         oraz na zlecenie
                                         innych osób.
                                     </label>
-                                    </div>
                                 </div>
-
-                                <div class="contact-form__wrapper">
-                                    <button type="submit" class="btn btn-default contact-btn">Wyślij prośbę o kontakt</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="insurance__container">
-                        <h1 class="buy-insurance__title">Kup ubezpieczenie</h1>
-
-                        <div class="insurance-options__container">
-                            <div class="tile">
-                                <a href="">PODRÓŻ</a>
                             </div>
 
-                            <div class="tile">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="">PODRÓŻ BIZNES</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-2 footer-list">
-                    <ul>
-                        <p class="footer-list__title">DODATKOWE INFORMACJE:</p>
-
-                        <li>
-                            <a href="">Strona główna</a>
-                        </li>
-
-                        <li>
-                            <a href="">O nas</a>
-                        </li>
-
-                        <li>
-                            <a href="">Ubezpieczenia</a>
-                        </li>
-
-                        <li>
-                            <a href="">Gwarancja</a>
-                        </li>
-
-                        <li>
-                            <a href="">Polityka prywatności</a>
-                        </li>
-
-                        <li>
-                            <a href="">Warunki użytkowania</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-4 col-md-2 footer-list">
-                    <ul>
-                        <p class="footer-list__title">JESZCZE INNE INFORMACJE:</p>
-
-                        <li>
-                            <a href="">Strona główna</a>
-                        </li>
-
-                        <li>
-                            <a href="">O nas</a>
-                        </li>
-
-                        <li>
-                            <a href="">Ubezpieczenia</a>
-                        </li>
-
-                        <li>
-                            <a href="">Gwarancja</a>
-                        </li>
-
-                        <li>
-                            <a href="">Polityka prywatności</a>
-                        </li>
-
-                        <li>
-                            <a href="">Warunki użytkowania</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-4 col-md-2 footer-list">
-                    <ul>
-                        <p class="footer-list__title">ZNOWU JAKIEŚ INFORMACJE:</p>
-
-                        <li>
-                            <a href="">Strona główna</a>
-                        </li>
-
-                        <li>
-                            <a href="">O nas</a>
-                        </li>
-
-                        <li>
-                            <a href="">Ubezpieczenia</a>
-                        </li>
-
-                        <li>
-                            <a href="">Gwarancja</a>
-                        </li>
-
-                        <li>
-                            <a href="">Polityka prywatności</a>
-                        </li>
-
-                        <li>
-                            <a href="">Warunki użytkowania</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-6 footer-newsletter">
-                    <p class="footer-list__title">ZAPISZ SIĘ NA NASZ NEWSLETTER</p>
-
-                    <p class="footer-newsletter__text">
-                        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy
-                        foster collaborative thinking to further the overall proposition organically grow.
-                    </p>
-                    <form class="footer-newsletter__form form-inline">
-                        <div>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <input type="email" class="form-control form__input" id="email" placeholder="Wpisz swój adres e-mail i bądź na bieżąco..."/>
-                                </div>
-                                <div class="col-sm-4">
-                                    <button type="submit" class="btn btn-default footer-newsletter__form__btn">zapisz się
+                            <div class="contact-form__wrapper">
+                                <button type="submit" class="btn btn-default contact-btn">Wyślij prośbę o kontakt
                                 </button>
-                                </div>
                             </div>
-                    </form>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="spacer"></div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="insurance__container">
+                    <h1 class="buy-insurance__title">Kup ubezpieczenie</h1>
+
+                    <div class="insurance-options__container">
+                        <div class="tile">
+                            <a href="">PODRÓŻ</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
+
+                        <div class="tile">
+                            <a href="">PODRÓŻ BIZNES</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="footer-logo__container">
-                        <p class="footer-logo__container__title">
-                            bezpieczny zakup polisy gwarantują
-                        </p>
-                        <img src="img/footer-gwarancja.png" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="footer-logo__container">
-                        <p class="footer-logo__container__title">
-                            Ta strona jest zabezpieczona certyfikatem @ True Buisnessid env
-                        </p>
-                        <img src="img/secure.png" />
-                    </div>
-                </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-2 footer-list">
+                <ul>
+                    <p class="footer-list__title">DODATKOWE INFORMACJE:</p>
+
+                    <li>
+                        <a href="">Strona główna</a>
+                    </li>
+
+                    <li>
+                        <a href="">O nas</a>
+                    </li>
+
+                    <li>
+                        <a href="">Ubezpieczenia</a>
+                    </li>
+
+                    <li>
+                        <a href="">Gwarancja</a>
+                    </li>
+
+                    <li>
+                        <a href="">Polityka prywatności</a>
+                    </li>
+
+                    <li>
+                        <a href="">Warunki użytkowania</a>
+                    </li>
+                </ul>
             </div>
-    </footer>
 
-    <div class="cookie-alert__wrapper"></div>
+            <div class="col-sm-4 col-md-2 footer-list">
+                <ul>
+                    <p class="footer-list__title">JESZCZE INNE INFORMACJE:</p>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                    <li>
+                        <a href="">Strona główna</a>
+                    </li>
 
-    <script src="app.js"></script>
+                    <li>
+                        <a href="">O nas</a>
+                    </li>
+
+                    <li>
+                        <a href="">Ubezpieczenia</a>
+                    </li>
+
+                    <li>
+                        <a href="">Gwarancja</a>
+                    </li>
+
+                    <li>
+                        <a href="">Polityka prywatności</a>
+                    </li>
+
+                    <li>
+                        <a href="">Warunki użytkowania</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 col-md-2 footer-list">
+                <ul>
+                    <p class="footer-list__title">ZNOWU JAKIEŚ INFORMACJE:</p>
+
+                    <li>
+                        <a href="">Strona główna</a>
+                    </li>
+
+                    <li>
+                        <a href="">O nas</a>
+                    </li>
+
+                    <li>
+                        <a href="">Ubezpieczenia</a>
+                    </li>
+
+                    <li>
+                        <a href="">Gwarancja</a>
+                    </li>
+
+                    <li>
+                        <a href="">Polityka prywatności</a>
+                    </li>
+
+                    <li>
+                        <a href="">Warunki użytkowania</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6 footer-newsletter">
+                <p class="footer-list__title">ZAPISZ SIĘ NA NASZ NEWSLETTER</p>
+
+                <p class="footer-newsletter__text">
+                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative
+                    approaches to corporate strategy
+                    foster collaborative thinking to further the overall proposition organically grow.
+                </p>
+                <form class="footer-newsletter__form form-inline">
+                    <div>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control form__input" id="email"
+                                       placeholder="Wpisz swój adres e-mail i bądź na bieżąco..."/>
+                            </div>
+                            <div class="col-sm-4">
+                                <button type="submit" class="btn btn-default footer-newsletter__form__btn">zapisz się
+                                </button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="spacer"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="footer-logo__container">
+                <p class="footer-logo__container__title">
+                    bezpieczny zakup polisy gwarantują
+                </p>
+                <img src="img/footer-gwarancja.png"/>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="footer-logo__container">
+                <p class="footer-logo__container__title">
+                    Ta strona jest zabezpieczona certyfikatem @ True Buisnessid env
+                </p>
+                <img src="img/secure.png"/>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="cookie-alert">
+    <p class="cookie-alert__text">Zbieramy cookies cokolwiek to znaczy.
+        <a href="" class="cookie-alert__policy">Akceptujesz naszą politykę prywatności i cookies?</a></p>
+    <p class="cookie-alert__btn"><a class="cookie-alert__link">akceptuję!</a></p>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="app.js"></script>
 </body>
 
 </html>

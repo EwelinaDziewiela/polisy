@@ -512,11 +512,15 @@ footer
 .main-menu__mobile
   display: none
 
+
 .cookie-alert
   background: $secondary-color
   height: 50px
   text-align: center
   padding: 15px
+  bottom: 0
+  position: fixed
+  width: 100%
 
 
 .cookie-alert__text
@@ -580,3 +584,24 @@ footer
       .dropdown-menu>li>a
         padding: 0
 
+@media (max-width: 771px)
+
+  .cookie-alert
+    height: 60px
+
+  .cookie-alert__btn
+    float: none
+    margin-right: 0
+
+  .cookie-alert__text
+    float: none
+    margin-left: 0
+
+@media (max-width: 621px)
+  .cookie-alert
+    height: 80px
+
+@media (max-width: 548px)
+
+  .cookie-alert
+    height: 90px
