@@ -1,0 +1,69 @@
+@import variables
+@import fonts
+
+.section-background
+  //background: rgba(#0470ab, 0.07)
+  background-image: url("../img/background.png")
+  text-align: center
+  position: relative
+  height: 400px
+
+  //
+  //&::after
+  //  content: ""
+  //  background: url("../img/background.png")
+  //  opacity: 0.5
+  //  top: 0
+  //  left: 0
+  //  bottom: 0
+  //  right: 0
+  //  position: absolute
+  //  z-index: -1
+
+.main-container
+  background: white
+  max-width: 84em
+  margin-top: 90px
+  min-height: 395px
+  margin-bottom: -150px
+  padding-bottom: 20px
+  -webkit-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
+  -moz-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
+  box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
+  display: inline-block
+  margin-left: 23%
+
+.head-container
+  border-bottom: 1px solid $third-color
+  height: 120px
+
+  .logo
+    padding-top: 30px
+
+.main-container__description
+  text-align: left
+  margin-top: 30px
+  padding: 0 40px
+
+.main-container__title
+  font-family: "HelveticaNeueBold"
+  font-size: 32px
+  color: $fourth-color
+  margin-bottom: 30px
+
+.main-container__text
+  font-family: "HelveticaNeue-Black"
+  font-size: 18px
+  font-weight: 100
+  color: $fifth-color
+
+
+@media (max-width: 767px)
+
+  .main-container
+    margin-left: 0
+
+    .head-container
+      .logo
+        margin-left: -20px
+
