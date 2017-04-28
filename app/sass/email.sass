@@ -5,8 +5,9 @@
   //background: rgba(#0470ab, 0.07)
   background-image: url("../img/background.png")
   text-align: center
-  position: relative
   height: 400px
+  display: inline-block
+  width: 100%
 
   //
   //&::after
@@ -22,7 +23,7 @@
 
 .main-container
   background: white
-  max-width: 84em
+  max-width: 50em
   margin-top: 90px
   min-height: 395px
   margin-bottom: -150px
@@ -30,20 +31,23 @@
   -webkit-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
   -moz-box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
   box-shadow: 2px 6px 29px -10px rgba(0,0,0,0.75)
+  //margin-left: 20%
   display: inline-block
-  margin-left: 23%
 
 .head-container
   border-bottom: 1px solid $third-color
   height: 120px
+  margin-left: 0
+  padding: 0 10px
+  width: 100%
 
   .logo
     padding-top: 30px
 
 .main-container__description
   text-align: left
-  margin-top: 30px
-  padding: 0 40px
+  margin: 30px 0 40px
+  padding: 100px 40px 0 40px
 
 .main-container__title
   font-family: "FuturaPTBold"
@@ -67,6 +71,58 @@
   font-family: "FuturaPTDemi"
   letter-spacing: 1px
 
+.section-line__bottom
+  height: 40px
+  border-bottom: 1px solid $third-color
+
+.footer-profile__desc
+  display: inline-block
+  vertical-align: middle
+  padding-left: 20px
+  text-align: left
+  font-family: "FuturaPTMedium"
+  color: $fifth-color
+
+
+
+.footer-profile__img
+  display: inline-block
+
+.footer-profile
+  border-right: 1px solid $third-color
+  margin-top: 20px
+
+.footer-profile__name, .footer-profile__title
+  margin: 0
+
+.footer-profile__name
+  font-size: 18px
+
+.footer-contact__email, .footer-contact__email:hover, .footer-contact__email:active, .footer-contact__email:focus
+  display: block
+  font-size: 18px
+  color: $secondary-color
+  text-decoration: none
+
+.footer-contact__tel, .footer-contact__tel:hover, .footer-contact__tel:focus, .footer-contact__tel:active
+  color: $fifth-color
+  text-decoration: none
+
+
+.footer-contact
+  text-align: left
+  vertical-align: middle
+  margin-top: 22px
+  font-family: "FuturaPTMedium"
+
+.triangle-down
+  width: 0
+  height: 0
+  border-left: 10px solid transparent
+  border-right: 10px solid transparent
+  border-top: 10px solid $third-color
+  margin-left: 65px
+
 
 @media (max-width: 767px)
 
@@ -77,3 +133,36 @@
       .logo
         margin-left: -20px
 
+  .footer-profile
+    display: inline-block
+
+  .footer-contact
+    display: inline-block
+    margin-top: 0
+
+  .triangle-down
+    margin-left: 170px
+
+
+
+@media (max-width: 991px)
+
+  .main-container__description
+    padding-top: 0
+
+
+@media (max-width: 445px)
+
+  .footer-profile
+    border-right: none
+
+  .triangle-down
+    margin-left: 30px
+
+@media (max-width: 444px)
+
+  .triangle-down
+    margin-left: 130px
+
+  .footer-contact
+    margin-top: 40px
