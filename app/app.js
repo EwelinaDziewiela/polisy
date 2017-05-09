@@ -34,3 +34,23 @@ $(document).ready(function () {
 });
 
 
+$(".counter-minus").click(function(event) {
+    var value = $(event.target).parents(".counter").find(".counter-value").val();
+    value = parseInt(value);
+
+    console.log(value);
+
+    if (value >= 1) {
+        $(event.target).parents(".counter").find(".counter-value").val(--value);
+    }
+});
+
+$(".counter-plus").click(function(event) {
+    var value = $(event.target).parents(".counter").find(".counter-value").val();
+    value = parseInt(value);
+
+    console.log(value);
+
+    $(event.target).parents(".counter").find(".counter-value").val(++value);
+
+});
