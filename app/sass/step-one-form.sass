@@ -1,9 +1,16 @@
 @import variables
 @import fonts
 
+.red-dot
+  color: red;
+  margin-left: 2px;
+  font-size: 8px;
+  display: inline-block
+  margin-top: -2px
+
 .first-step
   text-align: left
-  margin-left: 35px
+  margin: 0 35px
 
 .first-step__input, .first-step__select
   border-top: none
@@ -13,7 +20,7 @@
   border-radius: 0
   color: black
   padding: 0
-  width: 80%
+  margin-top: -4px;
 
 
 .first-step__label
@@ -24,16 +31,20 @@
   text-transform: uppercase
   margin-left: 0
 
-.single-input, .single-input__participant
+.single-input--reset
   padding: 0
 
 .single-input__participant
-  margin-right: 45px
+  padding: 0
+  padding-right: 45px
 
 .first-step__title
   margin: 40px 0
   color: $fourth-color
   font-family: "FuturaPTDemi"
+
+.first-step__participants div:last-child 
+  padding-right: 0
 
 .first-step__dates, .first-step__participants
   margin-top: 40px
@@ -46,16 +57,31 @@
   text-align: center
   border: none
   font-size: 18px
+  display: inline-block
+  width: 50px
 
 .counter-minus, .counter-plus
+  vertical-align: top
   border: none
-  background: white
+  background: transparent;
   font-size: 26px
   font-family: "FuturaPTMedium"
+  position: absolute
+  top: -12px
+
+.counter-minus
+  left: 0
+  float: left
+
+.counter-plus
+  right: 0
+  float: right
 
 .counter
+  position: relative
   border-bottom: 1px solid $third-color
   vertical-align: middle
+  text-align: center
 
 .first-step__alert
   text-align: left
@@ -71,3 +97,9 @@
 .agreements-form
   text-align: left
   margin-left: 50px
+
+.first-step__dates div:nth-child(n+1)
+  padding-right: 40px
+
+.first-step__dates div:last-child
+  padding-right: 0
