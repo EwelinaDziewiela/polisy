@@ -78,8 +78,18 @@ $(document).ready(function() {
 
 $(".radio-btn").click(function() {
     $(event.target).parents(".choice-box").find(".radio-btn__check").toggle(".checked");
+    if($(".checked")) {
+        $(event.target).parents(".single-column__table").find(".table-price").css("background", "#5d8900");
+        $(event.target).parents(".single-column__table").find(".table-price").css("color", "white");
+
+        $(event.target).parents(".single-column").find(".single-column__table").css("box-shadow", "0 8px 12px 0 rgba(0,0,0,0.2)");
+    }
+
+    else {
+        $(event.target).parents(".single-column").find(".single-column__table").css("box-shadow", "none");
+
+    }
+
+
 });
 
-$(".choose-input").click(function() {
-    $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
-});
