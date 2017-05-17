@@ -89,7 +89,25 @@ $(".radio-btn").click(function() {
         $(event.target).parents(".single-column").find(".single-column__table").css("box-shadow", "none");
 
     }
-
-
 });
 
+
+$(".otherLocation").change(function(e) {
+    e.preventDefault()
+    var container = $(".otherLocationContainer");
+    if(e.target.checked){
+        container.show();
+    } else {
+        container.hide();
+    }
+});
+
+$(".selectAll").change(function(e) {
+    e.preventDefault()
+    if(e.target.checked){
+        $(".singleSelect").each(function(index, item){
+            console.log("ble")
+            $(item).prop('checked', true);
+        });
+    }
+});
