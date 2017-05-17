@@ -1,0 +1,95 @@
+@import fonts
+@import variables
+
+*
+  box-sizing: border-box
+
+.columns
+  text-align: center
+  display: inline-block
+  width: 100%
+  padding: 50px 50px 0 50px
+
+.single-column
+  float: left
+  width: 25%
+  display: inline-block
+  font-family: "FuturaPTDemi"
+
+.single-column__table
+  list-style-type: none
+  border: 1px solid #eee
+  margin: 0
+  padding: 0
+  -webkit-transition: 0.3s
+  transition: 0.3s
+
+.table-price
+  color: $secondary-color
+  font-size: 25px
+  font-family: "FuturaPTBold"
+
+.single-column__table:hover
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+
+.table-categories:hover
+  box-shadow: none
+
+.table-categories__header
+  text-transform: uppercase
+  font-size: 25px
+  color: $fourth-color
+
+
+
+
+.table-item, .header
+  border-bottom: 1px solid #eee
+  padding: 20px
+  text-align: left
+  height: 80px
+
+.choose-input
+  width: 40px
+  height: 40px
+  border: 1px solid #eee
+  display: inline-block
+  padding: 8px
+
+.choose-label
+  display: inline-block
+  vertical-align: top
+  padding: 8px
+
+.choice-box
+  height: 100px
+  text-align: left
+  padding: 20px
+
+.radio-btn
+  width: 40px
+  height: 40px
+  border: 1px solid #eee
+  border-radius: 30px
+  padding: 8px
+
+.radio-btn__check, .checkbox-checked
+  display: none
+
+.checked
+  display: block
+
+
+@media (max-width: 1110px)
+  .table-item
+    height: 80px
+
+@media (max-width: 817px)
+  .single-column
+    width: 50%
+    margin-bottom: 10px
+
+@media (max-width: 600px)
+  .single-column
+    width: 100%
+

@@ -54,3 +54,32 @@ $(".counter-plus").click(function(event) {
     $(event.target).parents(".counter").find(".counter-value").val(++value);
 
 });
+
+
+$(document).ready(function() {
+
+    $(".single-column__table").hover(function(){
+            $(event.target).parents(".single-column__table").find(".table-price").css("background", "#5d8900");
+        },
+        function() {
+            $(event.target).parents(".single-column__table").find(".table-price").css("background", "white");
+        }
+    );
+
+    $(".single-column__table").hover(function(){
+            $(event.target).parents(".single-column__table").find(".table-price").css("color", "white");
+        },
+        function() {
+            $(event.target).parents(".single-column__table").find(".table-price").css("color", "#0E69A0");
+        }
+    );
+
+});
+
+$(".radio-btn").click(function() {
+    $(event.target).parents(".choice-box").find(".radio-btn__check").toggle(".checked");
+});
+
+$(".choose-input").click(function() {
+    $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
+});
