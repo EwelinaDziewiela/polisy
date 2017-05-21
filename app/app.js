@@ -58,6 +58,14 @@ $(".counter-plus").click(function(event) {
 
 $(document).ready(function() {
 
+    $(".choose-input").click(function() {
+
+        $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
+    });
+
+
+
+
     $(".single-column__table").hover(function(){
             $(event.target).parents(".single-column__table").find(".table-price").css("background", "#5d8900");
         },
@@ -93,7 +101,7 @@ $(".radio-btn").click(function() {
 
 
 $(".otherLocation").change(function(e) {
-    e.preventDefault()
+    e.preventDefault();
     var container = $(".otherLocationContainer");
     if(e.target.checked){
         container.show();
@@ -103,10 +111,10 @@ $(".otherLocation").change(function(e) {
 });
 
 $(".selectAll").change(function(e) {
-    e.preventDefault()
+    e.preventDefault();
     if(e.target.checked){
         $(".singleSelect").each(function(index, item){
-            console.log("ble")
+            console.log("ble");
             $(item).prop('checked', true);
         });
     }
