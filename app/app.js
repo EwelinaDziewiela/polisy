@@ -3,22 +3,6 @@ $(".menu-icon").click(function () {
 });
 
 
-
-
-//$(document).ready(function () {
-//
-//    $(".cookie-alert__btn").click(function () {
-//        $(".cookie-alert").hide();
-//        localStorage.setItem("accepted", "true");
-//    });
-//        localStorage.getItem("accepted");
-//    console.log(localStorage.getItem("accepted"));
-//    if (localStorage.getItem("accepted") === "true") {
-//        $(".cookie-alert").hide();
-//    }
-//});
-
-
 $(document).ready(function () {
     if(localStorage.getItem("accepted") !== "true") {
         $(".cookie-alert").show();
@@ -59,44 +43,17 @@ $(".counter-plus").click(function(event) {
 $(document).ready(function() {
 
     $(".choose-input").click(function() {
-
         $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
     });
 
 
-
-
-    $(".single-column__table").hover(function(){
-            $(event.target).parents(".single-column__table").find(".table-price").css("background", "#5d8900");
-        },
-        function() {
-            $(event.target).parents(".single-column__table").find(".table-price").css("background", "white");
-        }
-    );
-
-    $(".single-column__table").hover(function(){
-            $(event.target).parents(".single-column__table").find(".table-price").css("color", "white");
-        },
-        function() {
-            $(event.target).parents(".single-column__table").find(".table-price").css("color", "#0E69A0");
-        }
-    );
-
 });
 
-$(".radio-btn").click(function() {
-    $(event.target).parents(".choice-box").find(".radio-btn__check").toggle(".checked");
-    if($(".checked")) {
-        $(event.target).parents(".single-column__table").find(".table-price").css("background", "#5d8900");
-        $(event.target).parents(".single-column__table").find(".table-price").css("color", "white");
-
-        $(event.target).parents(".single-column").find(".single-column__table").css("box-shadow", "0 8px 12px 0 rgba(0,0,0,0.2)");
-    }
-
-    else {
-        $(event.target).parents(".single-column").find(".single-column__table").css("box-shadow", "none");
-
-    }
+$(".main-choice").click(function() {
+    $(".main-choice").find("input").prop("checked", false);
+    $(".main-choice").find(".radio-btn__check").removeClass("checked");
+    $(event.target).find(".radio-btn__check").addClass("checked");
+    $(event.target).find("input").prop("checked", true);
 });
 
 
@@ -114,7 +71,6 @@ $(".selectAll").change(function(e) {
     e.preventDefault();
     if(e.target.checked){
         $(".singleSelect").each(function(index, item){
-            console.log("ble");
             $(item).prop('checked', true);
         });
     }
