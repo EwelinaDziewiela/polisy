@@ -15,6 +15,8 @@ $(document).ready(function () {
         $(".cookie-alert").hide();
     });
     console.log(localStorage.getItem("accepted"));
+
+
 });
 
 
@@ -45,7 +47,6 @@ $(document).ready(function() {
     $(".choose-input").click(function() {
         $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
     });
-
 
 });
 

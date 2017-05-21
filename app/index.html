@@ -97,8 +97,25 @@
                                         <a href="#">Dlaczego warto?</a>
                                     </li>
 
-                                    <li class="side-menu__link visible-lg">
-                                        <a href="#">Zadzwońcie do mnie</a>
+                                    <li class="side-menu__link visible-lg dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Zadzwońcie do mnie</a>
+                                            <div class="dropdown-menu call-dropdown">
+                                                <form class="dropdown-form">
+                                                    <div class="form-group dropdown-form__group">
+                                                        <label for="name" class="dropdown-form__label">Imię i nazwisko <span style="color:red;margin-left:2px;font-size:8px;">●</span></label>
+                                                        <input type="text" class="form-control dropdown-form__input" placeholder="Podaj swoje imię i nazwisko" name="send-contact__name"/>
+                                                    </div>
+                                                    <div class="form-group dropdown-form__group">
+                                                        <label for="tel" class="dropdown-form__label">Telefon <span style="color:red;margin-left:2px;font-size:8px;">●</span></label>
+                                                        <!--<select class="form-control dropdown-form__input phone-select">-->
+                                                            <!--<option class="option-home">Stacjonarny</option>-->
+                                                            <!--<option class="option-mobile">Komórkowy</option>-->
+                                                        <!--</select>-->
+                                                        <input type="tel" class="form-control dropdown-form__input" placeholder="Podaj numer telefonu" name="send-contact__tel"/>
+                                                    </div>
+                                                    <button class="btn dropdown-form__btn" name="send-contact__btn">Wyślij</button>
+                                                </form>
+                                            </div>
                                     </li>
 
                                     <li class="side-menu__link visible-lg">
