@@ -51,8 +51,8 @@ $(document).ready(function() {
 
 $(".main-choice").click(function() {
     $(".main-choice").find("input").prop("checked", false);
-    $(".main-choice").find(".radio-btn__check").removeClass("checked");
-    $(event.target).find(".radio-btn__check").addClass("checked");
+    $(".main-choice").removeClass("checked");
+    $(event.target).addClass("checked");
     $(event.target).find("input").prop("checked", true);
 });
 
