@@ -55,7 +55,8 @@
                         </p>
                     </div>
 
-                    <div class="big-container">
+                    <div class="big-container screen
+                    ">
                         <form action="">
                             <!--Musisz dodawac lub odejmowac procenty ale suma musi byc 100%-->
                             <div class="green-bar__item" style="width: 20%">
@@ -91,6 +92,8 @@
 
                             <div class="first-step">
 
+
+                                <h2 class="header-first"> Ubezpieczający</h2>
                                 <div class="form-group clearfix">
 
                                     <div class="col-md-6 single-input--push">
@@ -98,18 +101,18 @@
                                             Kto ubezpiecza
                                             <span class="red-dot">●</span>
                                         </label>
-                                        <select class="form-control first-step__select" id="date" name="date">
-                                            <option class="select-option">stary </option>
+                                        <select class="form-control first-step__select" required name="date">
+                                            <option class="select-option" disabled="disabled" selected="selected" value="null">stary </option>
                                             <option class="select-option">stara</option>
                                         </select>
                                     </div>
 
                                     <div class="single-input col-md-6">
                                         <label class="first-step__label" for="destination">
-                                            miejsce wyjazdu
+                                            Imie i nazwisko 
                                             <span class="red-dot">●</span>
                                         </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj imię i naazwisko">
                                     </div>
                                 </div>
 
@@ -119,7 +122,7 @@
                                         data urodzenia 
                                         <span class="red-dot">●</span>
                                     </label>
-                                        <input type="date" class="form-control first-step__input" id="date" name="date">
+                                        <input type="date" class="form-control first-step__input" required name="date">
                                     </div>
 
                                     <div class="col-md-6">
@@ -127,8 +130,8 @@
                                             Narodowosc 
                                             <span class="red-dot">●</span>
                                         </label>
-                                        <select class="form-control first-step__select" id="date" name="date">
-                                            <option class="select-option">stary </option>
+                                        <select class="form-control first-step__select" required name="date">
+                                            <option class="select-option" disabled="disabled" selected="selected">stary </option>
                                             <option class="select-option">stara</option>
                                         </select>
                                     </div>
@@ -142,7 +145,7 @@
                                             pesel
                                             <span class="red-dot">●</span>
                                             </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj swój pesel">
                                     </div>
 
                                     <div class="single-input col-md-6">
@@ -150,7 +153,7 @@
                                             telefon komórkowy
                                             <span class="red-dot">●</span>
                                         </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="+48">
                                     </div>
                                 </div>
 
@@ -161,15 +164,14 @@
                                             adress email
                                             <span class="red-dot">●</span>
                                             </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj swój adres e-mail">
                                     </div>
 
                                     <div class="single-input col-md-6">
                                         <label class="first-step__label" for="destination">
                                             telefon stacjonarny
-                                            <span class="red-dot">●</span>
                                         </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="+48">
                                     </div>
                                 </div>
 
@@ -177,10 +179,9 @@
                                 <div class="form-group clearfix">
                                     <div class="single-input col-md-6 single-input--push">
                                         <label class="first-step__label" for="destination">
-                                            zawod
-                                            <span class="red-dot">●</span>
+                                            wykonywany zawód
                                             </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj zawód jakim się zajmujesz">
                                     </div>
 
 
@@ -195,7 +196,7 @@
                                                 ulica
                                                 <span class="red-dot">●</span>
                                                 </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj ulicę na której mieszkasza">
                                     </div>
 
                                     <div class="single-input col-md-6">
@@ -203,7 +204,7 @@
                                                 numer domu
                                                 <span class="red-dot">●</span>
                                             </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj numer domu w którym mieszkasz">
                                     </div>
                                 </div>
 
@@ -214,15 +215,14 @@
                                                 miasto 
                                                 <span class="red-dot">●</span>
                                                 </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miasto w którym mieszkasz">
                                     </div>
 
                                     <div class="single-input col-md-6">
                                         <label class="first-step__label" for="destination">
                                                 numer lokalu
-                                                <span class="red-dot">●</span>
                                             </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" required class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj numer lokalu w którym mieszkasz">
                                     </div>
                                 </div>
 
@@ -233,7 +233,7 @@
                                                 kod pocztowy
                                                 <span class="red-dot">●</span>
                                                 </label>
-                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj miejsce wyjazdu">
+                                        <input type="text" class="form-control first-step__input" id="destination" name="destination" placeholder="Podaj kod pocztowy twojego miasta">
                                     </div>
 
                                     <div class="single-input col-md-6">
@@ -241,21 +241,24 @@
                                                 kraj
                                                 <span class="red-dot">●</span>
                                             </label>
-                                        <select class="form-control first-step__select" id="date" name="date">
-                                            <option class="select-option">rosja </option>
+                                        <select class="form-control first-step__select" id="date" name="date" required>
+                                            <option class="select-option" disabled="disabled" selected="selected">rosja </option>
                                             <option class="select-option">polska</option>
                                         </select>
                                     </div>
                                 </div>
 
 
-                                <h2> Adres do korespondencji <input type="checkbox" class="otherLocation" name="otherLocation"
-                                        value="false" /></h2>
+                                <h2> Adres do korespondencji 
+                                    <span class="header__right"><input type="checkbox" class="otherLocation" name="otherLocation"
+                                        value="false" /> Inny niż adres zamieszkania
+                                    </span>
+                                </h2>
                                 <div class="otherLocationContainer" style="display: none"> wstaw se tu to z gory :P </div>
 
 
                                 <div class="agreements">
-                                    <div class="form-group agreements-form">
+                                    <div class="form-group">
                                         <div class="checkbox form-check__all">
                                             <label><input type="checkbox" class="selectAll"> Zaznacz wszystko</label>
                                         </div>
