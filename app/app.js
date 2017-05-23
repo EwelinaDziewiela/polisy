@@ -44,7 +44,8 @@ $(".counter-plus").click(function(event) {
 
 $(document).ready(function() {
 
-    $(".choose-input").click(function() {
+    $(".choose-input").click(function(event) {
+        event.stopPropagation();
         $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
     });
 
