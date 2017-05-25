@@ -16,6 +16,12 @@
   display: inline-block
   font-family: "FuturaPTDemi"
 
+.table-price
+  color: $secondary-color
+  font-size: 25px
+  font-family: "FuturaPTBold"
+
+
 .single-column__table
   list-style-type: none
   border: 1px solid #eee
@@ -25,13 +31,17 @@
   transition: 0.3s
   color: $fifth-color
 
-.table-price
-  color: $secondary-color
-  font-size: 25px
-  font-family: "FuturaPTBold"
-
-.single-column__table:hover
+.single-column__table:hover, .single-column__table.active
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+
+.single-column__table:hover, .single-column__table.active
+  .table-price
+    background: #5d8900
+    color: white
+  .table-kind
+    text-transform: uppercase
+    color: #5d8900
+
 
 .table-categories:hover
   box-shadow: none
@@ -96,15 +106,6 @@
 .promo-code__title
   text-transform: uppercase
   color: $fifth-color
-
-
-.single-column__table:hover
-  .table-price
-    background: #5d8900
-    color: white
-  .table-kind
-    text-transform: uppercase
-    color: #5d8900
 
 .promo-card__input, .promo-card__input:active, .promo-card__input:focus
   width: 80%!important
