@@ -42,14 +42,13 @@ $(".counter-plus").click(function(event) {
 });
 
 
-$(document).ready(function() {
-
-    $(".choose-input").click(function(event) {
-        event.stopPropagation();
-        $(event.target).parents(".choose-option").find(".checkbox-checked").toggle(".checked");
-    });
-
+$(".choose-input").click(function(event) {
+    event.stopPropagation();
+    $(event.target).find(".checkbox-checked").toggle(".checked");
+    $(event.target).find("input[type='checkbox']").trigger('click');
 });
+
+
 
 $(".main-choice").click(function() {
     $(".main-choice").find("input").prop("checked", false);
@@ -58,6 +57,10 @@ $(".main-choice").click(function() {
     $(event.target).find("input").prop("checked", true);
 });
 
+
+$(".reload-page").click(function(){
+    location.reload();
+})
 
 $(".otherLocation").change(function(e) {
     e.preventDefault();
