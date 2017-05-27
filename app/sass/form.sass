@@ -1,5 +1,26 @@
 @import variables
 
+
+
+.form-checkbox
+  display:none !important
+
+.form-checkbox[type=checkbox] + label 
+  display:inline-block
+  padding: 0 0 0 0px
+  background:url(../img/checkbox-empty.png) no-repeat
+  height: 32px
+  width: 32px
+  background-size: 100%
+
+
+.form-checkbox[type=checkbox]:checked + label 
+  background: url(../img/checbox-checked.png) no-repeat
+  height: 32px
+  width: 32px
+  display:inline-block
+  background-size: 100%
+
 .form__input
   border-top: 0
   border-left: 0
@@ -44,8 +65,7 @@
   &:active, &:focus, &:hover
     color: $subtitles-color
 
-
-
 .form-control:focus
- -webkit-box-shadow: none
- box-shadow: none
+  -webkit-box-shadow: none
+  box-shadow: none
+ 

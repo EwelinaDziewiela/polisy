@@ -1,8 +1,3 @@
-$(".menu-icon").click(function () {
-    $(".navbar-mobile").toggleClass("hidden");
-});
-
-
 $(document).ready(function () {
     if(localStorage.getItem("accepted") !== "true") {
         $(".cookie-alert").show();
@@ -14,18 +9,16 @@ $(document).ready(function () {
         localStorage.setItem("accepted", "true");
         $(".cookie-alert").hide();
     });
-    console.log(localStorage.getItem("accepted"));
-
-
 });
 
+
+$(".menu-icon").click(function () {
+    $(".navbar-mobile").toggleClass("hidden");
+});
 
 $(".counter-minus").click(function(event) {
     var value = $(event.target).parents(".counter").find(".counter-value").val();
     value = parseInt(value);
-
-    console.log(value);
-
     if (value >= 1) {
         $(event.target).parents(".counter").find(".counter-value").val(--value);
     }
@@ -34,20 +27,9 @@ $(".counter-minus").click(function(event) {
 $(".counter-plus").click(function(event) {
     var value = $(event.target).parents(".counter").find(".counter-value").val();
     value = parseInt(value);
-
-    console.log(value);
-
     $(event.target).parents(".counter").find(".counter-value").val(++value);
 
 });
-
-
-$(".choose-input").click(function(event) {
-    event.stopPropagation();
-    $(event.target).find(".checkbox-checked").toggle(".checked");
-    $(event.target).find("input[type='checkbox']").trigger('click');
-});
-
 
 
 $(".main-choice").click(function() {
