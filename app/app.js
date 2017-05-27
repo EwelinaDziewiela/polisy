@@ -32,14 +32,6 @@ $(".counter-plus").click(function(event) {
 });
 
 
-$(".main-choice").click(function() {
-    $(".main-choice").find("input").prop("checked", false);
-    $(".main-choice").removeClass("checked");
-    $(event.target).addClass("checked");
-    $(event.target).find("input").prop("checked", true);
-});
-
-
 $(".reload-page").click(function(){
     location.reload();
 })
