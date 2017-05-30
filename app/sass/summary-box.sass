@@ -1,0 +1,51 @@
+@import variables
+@import fonts
+
+.summary-box--not-last .summary-box__item
+  border-bottom: none
+
+.summary-box .summary-box__item:nth-child(n+2)
+  p
+    margin-left: 20px
+
+.summary-box__item   
+  padding: 20px 0
+  border-top: 1px solid $third-color
+  border-bottom: 1px solid $third-color
+  border-right: 1px solid $third-color
+
+  p 
+    margin: 0  
+
+.summary-box-3 .summary-box__item:nth-child(3n)
+  border-right: none
+
+.summary-box-2 .summary-box__item:nth-child(2n)
+  border-right: none
+
+.summary-box-title
+  text-transform: uppercase
+  color: $third-color
+
+.summary-box-value 
+  float: right
+  color: $font-color
+
+.summary-box--one-line .summary-box__item
+  border-top: none
+  border-right: none
+
+
+@media (max-width : 992px) 
+  .summary-box__item   
+    padding: 20px 0
+    border-bottom: 1px solid $third-color
+    border-right: 0px
+
+  .summary-box-title
+    margin-left: 0
+
+  .summary-box .summary-box__item:nth-child(n+2) p
+    margin-left: 0px  
+
+

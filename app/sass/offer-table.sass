@@ -131,24 +131,51 @@
   width: 100%
   border-bottom: 1px solid #ccc
   padding-bottom: 10px
+  position: relative
 
 .promo-card__btn
   text-transform: uppercase
   padding-left: 100px
   background: white
+  position: absolute
+  right: 10px
   color: $secondary-color
+
+.single-columnt__mobile
+  display: none
+  font-size: 13px
 
 
 @media (max-width: 1110px)
   .table-item
     height: 80px
 
-@media (max-width: 817px)
-  .single-column
-    width: 50%
-    margin-bottom: 10px
+// @media (max-width: 817px)
+//   .single-column
+//     width: 50%
+//     margin-bottom: 10px
 
 @media (max-width: 600px)
   .single-column
     width: 100%
+
+
+
+@media (max-width: 922px)
+  .table-item, .header
+    height: auto
+
+  .single-column
+    width: 100%
+    margin-bottom: 50px
+
+  .single-column__table
+    width: 100%
+
+  .single-column-legend
+    display: none  
+
+  .single-columnt__mobile
+    display: block  
+
 
